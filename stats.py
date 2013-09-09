@@ -84,8 +84,6 @@ if cache:
             password = aes_decrypt(cache['password'])
         cache = None
 
-# print(login, password)
-# sys.exit()
 if cache:
     stats = cache
 else:
